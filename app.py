@@ -187,65 +187,31 @@ with col2:
     font-weight:900;
     text-shadow:0px 0px 15px #00E5FF;
     ">
-    PLATAFORMA LMC
+    EXAVAL LMC
     </h4>
 
     <hr>
 
-    <p style="
-    margin:0;
-    font-size:18px;
-    font-weight:bold;
-    color:#FFFFFF;
-    ">
-    Credencial Principal <span style="color:#00E5FF;"></span>
-    </p>
-
-    <p style="
-    margin:0;
-    font-size:clamp(14px,1vw,18px);
-    font-weight:bold;
-    color:#FFFFFF;
-    ">
-    👤 Usuario: <span style="color:#00E5FF;">lmc</span>
-    </p>
-
-    <p style="
-    margin:0;
-    font-size:clamp(14px,1vw,18px);
-    font-weight:bold;
-    color:#FFFFFF;
-    ">
-    🔑 Contraseña: <span style="color:#00E5FF;">Lmc$</span>
-    </p>
-
-    <h4 style="color:#00E5FF;">Módulos</h4>
-
-    <ol style="
-    font-size:clamp(15px,1vw,19px);
-    font-weight:600;
-    line-height:1.4;
-    color:white;
-    text-shadow:0px 0px 8px rgba(0,0,0,0.8);
-    ">
-        <li>📑Selfies Lect Rep Sheets</li>
-        <li>📷Galería de Reparto</li>
-        <li>📊Refacturados v3 99999</li>
-        <li>⚡Riesgo Elect Hga Cang</li>
-        <li>📥Desc Masiva Lect Rep</li>
-        <li>🧾% Avance Lect y Relect</li>
-        <li>🧾% Avance Reparto</li>
-        <li>📋Ver Asig Lect Rep</li>
-        <li>📈Sum Mis o Dif Obs</li>
-    </ol>
+    <div style="text-align:center; margin-top:35px;">
+        <a href="https://www.youtube.com/playlist?list=PL4cQJ4fKEyHxRE5KBv8J9a_O5w9MNs0v8"
+           target="_blank"
+           style="
+           display:inline-block;
+           background:linear-gradient(90deg,#00C8FF,#2563EB);
+           color:white;
+           padding:12px 28px;
+           border-radius:10px;
+           text-decoration:none;
+           font-weight:bold;
+           font-size:clamp(14px,1vw,18px);
+           box-shadow:0px 0px 10px rgba(0,200,255,.4);
+           ">
+           🎥 Ver Video
+        </a>
+    </div>
 
     </div>
     """, unsafe_allow_html=True)
-
-# ==========================
-# TARJETA 3: EXA FIELSERVICE LMC
-# CONSERVAR TODO EL CONTENIDO
-# ==========================
 with col3:
     st.markdown("""
     <div style="
@@ -265,86 +231,31 @@ with col3:
     font-weight:900;
     text-shadow:0px 0px 15px #00E5FF;
     ">
-    EXA FIELSERVICE LMC
+    EXAVAL LMC
     </h4>
 
     <hr>
 
-    <p style="
-    margin:0;
-    font-size:18px;
-    font-weight:bold;
-    color:#FFFFFF;
-    ">
-    Credencial Principal <span style="color:#00E5FF;"></span>
-    </p>
-
-    <p style="
-    margin:0;
-    font-size:clamp(14px,1vw,18px);
-    font-weight:bold;
-    color:#FFFFFF;
-    ">
-    👤 Usuario: <span style="color:#00E5FF;">lmcf</span>
-    </p>
-
-    <p style="
-    margin:0;
-    font-size:clamp(14px,1vw,18px);
-    font-weight:bold;
-    color:#FFFFFF;
-    ">
-    🔑 Contraseña: <span style="color:#00E5FF;">Lcahuana</span>
-    </p>
-
-    <h4 style="color:#00E5FF;">Módulos</h4>
-
-    <ol style="
-    font-size:clamp(15px,1vw,19px);
-    font-weight:600;
-    line-height:1.4;
-    color:white;
-    text-shadow:0px 0px 8px rgba(0,0,0,0.8);
-    margin-bottom:10px;
-    ">
-        <li>📤 Exportar OT Lectura</li>
-        <li>📋 Asig Lect 2 Criterio</li>
-    </ol>
+    <div style="text-align:center; margin-top:35px;">
+        <a href="https://www.youtube.com/playlist?list=PL4cQJ4fKEyHxRE5KBv8J9a_O5w9MNs0v8"
+           target="_blank"
+           style="
+           display:inline-block;
+           background:linear-gradient(90deg,#00C8FF,#2563EB);
+           color:white;
+           padding:12px 28px;
+           border-radius:10px;
+           text-decoration:none;
+           font-weight:bold;
+           font-size:clamp(14px,1vw,18px);
+           box-shadow:0px 0px 10px rgba(0,200,255,.4);
+           ">
+           🎥 Ver Video
+        </a>
+    </div>
 
     </div>
     """, unsafe_allow_html=True)
-
-# ==========================
-# FILA DE BOTONES
-# ==========================
-st.markdown(
-    "<div style='height:2px'></div>",
-    unsafe_allow_html=True
-)
-
-btn1, btn2, btn3 = st.columns(3, gap="large")
-
-with btn1:
-    st.link_button(
-        "👤 HUMANO INGRESAR",
-        "https://sistemadeexportacionasignacionlecturarepartoyvalidacionreparto.streamlit.app/",
-        use_container_width=True
-    )
-
-with btn2:
-    st.link_button(
-        "👤 HUMANO INGRESAR",
-        "https://sistema-de-aplicaciones-lmc.streamlit.app/",
-        use_container_width=True
-    )
-
-with btn3:
-    st.link_button(
-        "👤 HUMANO INGRESAR",
-        "https://sistema-de-exportacion-asignacion-lectura-field-service-ngc.streamlit.app/",
-        use_container_width=True
-    )
-
 # ==========================
 # FOOTER
 # ==========================
