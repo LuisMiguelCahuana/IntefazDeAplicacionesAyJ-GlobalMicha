@@ -113,13 +113,12 @@ margin-bottom:30px;
 # ==========================
 # COLUMNAS
 # ==========================
-
 col1, col2, col3 = st.columns(3, gap="large")
 
 # ==========================
-# TARJETA 1
+# TARJETA 1: EXAVAL LMC
+# SOLO MANTENER EL BOTÓN VER VIDEO
 # ==========================
-
 with col1:
     st.markdown("""
     <div style="
@@ -143,58 +142,15 @@ with col1:
     </h4>
 
     <hr>
-    <p style="
-    margin:0;
-    font-size:18px;
-    font-weight:bold;
-    color:#FFFFFF;
-    ">
-    Credencial Principal <span style="color:#00E5FF;"></span>
-    </p>
-    
-    <p style="
-    margin:0;
-    font-size:clamp(14px,1vw,18px);
-    font-weight:bold;
-    color:#FFFFFF;
-    ">
-    👤 Usuario: <span style="color:#00E5FF;">lcahuana</span>
-    </p>
-    
-    <p style="
-    margin:0;
-    font-size:clamp(14px,1vw,18px);
-    font-weight:bold;
-    color:#FFFFFF;
-    ">
-    🔑 Contraseña: <span style="color:#00E5FF;">Lmc$%</span>
-    </p>
 
-    <h4 style="color:#00E5FF;">Módulos</h4>
-
-    <ol style="
-    font-size:clamp(15px,1vw,19px);
-    font-weight:600;
-    line-height:1.4;
-    color:white;
-    text-shadow:0px 0px 8px rgba(0,0,0,0.8);
-    margin-bottom:10px;
-    ">
-        <li>📤 Expor Lect Rep v3.1</li>
-        <li>📋 Asig Lect Rep v3.2</li>
-        <li>📋 Asig Lect Rep v3.3</li>
-        <li>🚀 Validar Reparto</li>
-        <li>🚀 Validar Rep Prog</li>
-    </ol>
-    
-    <div style="text-align:center;">
+    <div style="text-align:center; margin-top:35px;">
         <a href="https://www.youtube.com/playlist?list=PL4cQJ4fKEyHxRE5KBv8J9a_O5w9MNs0v8"
            target="_blank"
            style="
            display:inline-block;
            background:linear-gradient(90deg,#00C8FF,#2563EB);
            color:white;
-           padding:8px 20px;
+           padding:12px 28px;
            border-radius:10px;
            text-decoration:none;
            font-weight:bold;
@@ -209,9 +165,9 @@ with col1:
     """, unsafe_allow_html=True)
 
 # ==========================
-# TARJETA 2
+# TARJETA 2: PLATAFORMA LMC
+# CONSERVAR TODO EL CONTENIDO
 # ==========================
-
 with col2:
     st.markdown("""
     <div style="
@@ -235,6 +191,7 @@ with col2:
     </h4>
 
     <hr>
+
     <p style="
     margin:0;
     font-size:18px;
@@ -243,7 +200,7 @@ with col2:
     ">
     Credencial Principal <span style="color:#00E5FF;"></span>
     </p>
-    
+
     <p style="
     margin:0;
     font-size:clamp(14px,1vw,18px);
@@ -252,7 +209,7 @@ with col2:
     ">
     👤 Usuario: <span style="color:#00E5FF;">lmc</span>
     </p>
-    
+
     <p style="
     margin:0;
     font-size:clamp(14px,1vw,18px);
@@ -284,7 +241,11 @@ with col2:
 
     </div>
     """, unsafe_allow_html=True)
-    
+
+# ==========================
+# TARJETA 3: EXA FIELSERVICE LMC
+# CONSERVAR TODO EL CONTENIDO
+# ==========================
 with col3:
     st.markdown("""
     <div style="
@@ -308,6 +269,7 @@ with col3:
     </h4>
 
     <hr>
+
     <p style="
     margin:0;
     font-size:18px;
@@ -316,7 +278,7 @@ with col3:
     ">
     Credencial Principal <span style="color:#00E5FF;"></span>
     </p>
-    
+
     <p style="
     margin:0;
     font-size:clamp(14px,1vw,18px);
@@ -325,7 +287,7 @@ with col3:
     ">
     👤 Usuario: <span style="color:#00E5FF;">lmcf</span>
     </p>
-    
+
     <p style="
     margin:0;
     font-size:clamp(14px,1vw,18px);
@@ -348,13 +310,13 @@ with col3:
         <li>📤 Exportar OT Lectura</li>
         <li>📋 Asig Lect 2 Criterio</li>
     </ol>
+
     </div>
     """, unsafe_allow_html=True)
 
 # ==========================
 # FILA DE BOTONES
 # ==========================
-
 st.markdown(
     "<div style='height:2px'></div>",
     unsafe_allow_html=True
@@ -382,10 +344,10 @@ with btn3:
         "https://sistema-de-exportacion-asignacion-lectura-field-service-ngc.streamlit.app/",
         use_container_width=True
     )
+
 # ==========================
 # FOOTER
 # ==========================
-
 st.markdown("""
 <div class='footer'>
 Versión 2.0 | Aplicacion Desarrollado por Luis Miguel Cahuana Figueroa.
