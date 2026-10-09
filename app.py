@@ -106,7 +106,7 @@ text-shadow:0px 0px 25px #00C8FF;
 margin-top:0px;
 margin-bottom:30px;
 ">
-🤖 APLICACIONES INTEGRADAS LMC
+🤖 APLICACIONES INTEGRADAS
 </h1>
 """, unsafe_allow_html=True)
 
@@ -131,7 +131,7 @@ with col1:
         box-shadow:0 8px 20px rgba(0,0,0,0.3);
     ">
 
-    <h4 style="
+    <h6 style="
     text-align:center;
     color:#00E5FF;
     font-size:clamp(22px,2vw,34px);
@@ -139,7 +139,7 @@ with col1:
     text-shadow:0px 0px 15px #00E5FF;
     ">
     APP CONFORMACION DE CUADRILLAS
-    </h4>
+    </h6>
 
     <hr>
 
@@ -180,7 +180,7 @@ with col2:
         box-shadow:0 8px 20px rgba(0,0,0,0.3);
     ">
 
-    <h4 style="
+    <h6 style="
     text-align:center;
     color:#00E5FF;
     font-size:clamp(22px,2vw,34px);
@@ -188,7 +188,7 @@ with col2:
     text-shadow:0px 0px 15px #00E5FF;
     ">
     MONITOREO DE KILOMETRAJE DISTRIBUCION
-    </h4>
+    </h6>
 
     <hr>
 
@@ -224,7 +224,7 @@ with col3:
         box-shadow:0 8px 20px rgba(0,0,0,0.3);
     ">
 
-    <h4 style="
+    <h6 style="
     text-align:center;
     color:#00E5FF;
     font-size:clamp(22px,2vw,34px);
@@ -232,7 +232,7 @@ with col3:
     text-shadow:0px 0px 15px #00E5FF;
     ">
     MONITOREO DE KILOMETRAJE GLOBAL MICHA
-    </h4>
+    </h6>
 
     <hr>
 
