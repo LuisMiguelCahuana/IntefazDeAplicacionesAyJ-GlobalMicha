@@ -138,13 +138,13 @@ with col1:
     font-weight:900;
     text-shadow:0px 0px 15px #00E5FF;
     ">
-    EXAVAL LMC
+    APP CONFORMACION DE CUADRILLAS
     </h4>
 
     <hr>
 
     <div style="text-align:center; margin-top:35px;">
-        <a href="https://www.youtube.com/playlist?list=PL4cQJ4fKEyHxRE5KBv8J9a_O5w9MNs0v8"
+        <a href="https://conformaciondecuadrillas.streamlit.app/"
            target="_blank"
            style="
            display:inline-block;
@@ -157,7 +157,7 @@ with col1:
            font-size:clamp(14px,1vw,18px);
            box-shadow:0px 0px 10px rgba(0,200,255,.4);
            ">
-           🎥 Ver Video
+           Click Aqui
         </a>
     </div>
 
@@ -187,13 +187,13 @@ with col2:
     font-weight:900;
     text-shadow:0px 0px 15px #00E5FF;
     ">
-    EXAVAL LMC
+    MONITOREO DE KILOMETRAJE DISTRIBUCION
     </h4>
 
     <hr>
 
     <div style="text-align:center; margin-top:35px;">
-        <a href="https://www.youtube.com/playlist?list=PL4cQJ4fKEyHxRE5KBv8J9a_O5w9MNs0v8"
+        <a href="https://monitoreoayj.streamlit.app/"
            target="_blank"
            style="
            display:inline-block;
@@ -206,7 +206,7 @@ with col2:
            font-size:clamp(14px,1vw,18px);
            box-shadow:0px 0px 10px rgba(0,200,255,.4);
            ">
-           🎥 Ver Video
+           Click Aqui
         </a>
     </div>
 
@@ -231,13 +231,13 @@ with col3:
     font-weight:900;
     text-shadow:0px 0px 15px #00E5FF;
     ">
-    EXAVAL LMC
+    MONITOREO DE KILOMETRAJE GLOBAL MICHA
     </h4>
 
     <hr>
 
     <div style="text-align:center; margin-top:35px;">
-        <a href="https://www.youtube.com/playlist?list=PL4cQJ4fKEyHxRE5KBv8J9a_O5w9MNs0v8"
+        <a href="https://monitoreoglobamicha.streamlit.app/"
            target="_blank"
            style="
            display:inline-block;
@@ -250,7 +250,7 @@ with col3:
            font-size:clamp(14px,1vw,18px);
            box-shadow:0px 0px 10px rgba(0,200,255,.4);
            ">
-           🎥 Ver Video
+           Click Aqui
         </a>
     </div>
 
