@@ -134,7 +134,7 @@ with col1:
     <h6 style="
     text-align:center;
     color:#00E5FF;
-    font-size:clamp(22px,2vw,34px);
+    font-size:clamp(14px,1.2vw,20px);
     font-weight:900;
     text-shadow:0px 0px 15px #00E5FF;
     ">
@@ -183,7 +183,7 @@ with col2:
     <h6 style="
     text-align:center;
     color:#00E5FF;
-    font-size:clamp(22px,2vw,34px);
+    font-size:clamp(14px,1.2vw,20px);
     font-weight:900;
     text-shadow:0px 0px 15px #00E5FF;
     ">
@@ -227,7 +227,7 @@ with col3:
     <h6 style="
     text-align:center;
     color:#00E5FF;
-    font-size:clamp(22px,2vw,34px);
+    font-size:clamp(14px,1.2vw,20px);
     font-weight:900;
     text-shadow:0px 0px 15px #00E5FF;
     ">
