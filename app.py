@@ -113,7 +113,7 @@ margin-bottom:30px;
 # ==========================
 # COLUMNAS
 # ==========================
-col1, col2, col3 = st.columns(3, gap="large")
+col1, col2, col3, col4 = st.columns(4, gap="large")
 
 # ==========================
 # TARJETA 1: EXAVAL LMC
@@ -256,6 +256,51 @@ with col3:
 
     </div>
     """, unsafe_allow_html=True)
+with col4:
+    st.markdown("""
+    <div style="
+        background: rgba(255,255,255,0.05);
+        border:1px solid rgba(255,255,255,0.15);
+        border-radius:20px;
+        padding:25px;
+        color:white;
+        min-height:420px;
+        box-shadow:0 8px 20px rgba(0,0,0,0.3);
+    ">
+
+    <h6 style="
+    text-align:center;
+    color:#00E5FF;
+    font-size:clamp(14px,1.2vw,20px);
+    font-weight:900;
+    text-shadow:0px 0px 15px #00E5FF;
+    ">
+    REPORTE DE PLACAS
+    </h6>
+
+    <hr>
+
+    <div style="text-align:center; margin-top:35px;">
+        <a href="https://reporteplacas.streamlit.app/"
+           target="_blank"
+           style="
+           display:inline-block;
+           background:linear-gradient(90deg,#00C8FF,#2563EB);
+           color:white;
+           padding:12px 28px;
+           border-radius:10px;
+           text-decoration:none;
+           font-weight:bold;
+           font-size:clamp(14px,1vw,18px);
+           box-shadow:0px 0px 10px rgba(0,200,255,.4);
+           ">
+           Click Aqui
+        </a>
+    </div>
+
+    </div>
+    """, unsafe_allow_html=True)
+
 # ==========================
 # FOOTER
 # ==========================
