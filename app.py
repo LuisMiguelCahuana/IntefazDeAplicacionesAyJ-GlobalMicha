@@ -306,6 +306,6 @@ with col4:
 # ==========================
 st.markdown("""
 <div class='footer'>
-Versión 2.0 | Aplicacion Desarrollado por Luis Miguel Cahuana Figueroa.
+Versión 2.0 | Aplicacion Desarrollado por LMC.
 </div>
 """, unsafe_allow_html=True)
