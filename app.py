@@ -281,7 +281,7 @@ with col4:
     <hr>
 
     <div style="text-align:center; margin-top:35px;">
-        <a href="https://reporteplacas.streamlit.app/"
+        <a href="https://reporteplacasfusionado.streamlit.app//"
            target="_blank"
            style="
            display:inline-block;
